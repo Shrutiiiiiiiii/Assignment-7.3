@@ -9,5 +9,11 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Assign7_3';
+
+  public Name : string = ""
+
+  Display(){
+
+    this.Name = "Educating for better tomorrow"
+  }
 }
